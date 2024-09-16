@@ -1,4 +1,5 @@
 # Simple-As-Possible-SAP-8-bit-computer-using-Proteus
+The simple 8-bit computer architecture known as the SAP-1 can be built using discrete components. The creation of a computer with more bits will benefit from this elementary school effort.
 
 ## PROJECT:
 
