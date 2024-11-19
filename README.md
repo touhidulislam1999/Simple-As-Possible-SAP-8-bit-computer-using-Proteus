@@ -1,113 +1,90 @@
-# Simple-As-Possible-SAP-8-bit-computer-using-Proteus
-The simple 8-bit computer architecture known as the SAP-1 can be built using discrete components. The creation of a computer with more bits will benefit from this elementary school effort.
+# 💻 Simple-As-Possible (SAP-1) 8-bit Computer Using Proteus
 
-## PROJECT:
+This project is an implementation of the **SAP-1 (Simple As Possible)** 8-bit computer architecture using Proteus. It showcases the fundamental workings of a computer, including a processing unit, control unit, and memory unit, built using discrete components. This project serves as a foundational step for understanding more complex computer architectures.
 
-SAP, which stands for - Simple as possible.These kind of computers were first introduced by Albert Paul Malvino and Jerald A.Brown. Three types of SAP are there. These are SAP-1 SAP-2 SAP-3. This architecture follows the same fundamentals of modern computers.
+---
 
-This architecture comprises of three units; a processing unit, a control unit and also a memory unit that holds the data and the instructions. This architecture is like a basic computer.
+## 📜 **Project Overview**
+**SAP** stands for "Simple As Possible." Originally introduced by **Albert Paul Malvino** and **Jerald A. Brown**, the SAP architecture lays the groundwork for modern computer fundamentals.  
+The architecture includes:
+1. **Processing Unit**: Performs arithmetic and logical operations.
+2. **Control Unit**: Manages the execution of instructions.
+3. **Memory Unit**: Stores data and instructions.
 
-![image](https://github.com/touhidulislam1999/Simple-As-Possible-SAP-8-bit-computer-using-Proteus/assets/97190512/f910d98d-06e7-4b29-bac1-4e57aa433802)
+Three types of SAP architectures exist: **SAP-1**, **SAP-2**, and **SAP-3**. This project focuses on SAP-1, designed as a basic yet powerful computer model.
 
+![Custom SAP-1](https://github.com/touhidulislam1999/Simple-As-Possible-SAP-8-bit-computer-using-Proteus/assets/97190512/f910d98d-06e7-4b29-bac1-4e57aa433802)
 
-![image](https://github.com/touhidulislam1999/Simple-As-Possible-SAP-8-bit-computer-using-Proteus/assets/97190512/268ab5d8-e902-4273-97a8-48fa027e5fe2)
+---
 
+## 🏗️ **Architecture of SAP-1**
 
+### Key Features:
+1. **8-bit Bus**
+   - Facilitates data transfer within the system.
+   - [Video: Explanation of 8-bit Bus](https://youtu.be/dWdzywzoWck?si=vOc8VBNcO41z5CF-)
 
-## ARCHITECTURE OF SAP-1:
+2. **16x8-bit RAM**
+   - Stores instructions and data.
+   - [Video: 16x8-bit RAM Design](https://www.youtube.com/watch?v=dWdzywzoWck&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=6)
 
-Features: (Designed)
+3. **4-bit Program Counter (PC)**
+   - Keeps track of the instruction address.
+   - [Video: Program Counter Design](https://www.youtube.com/watch?v=SFzbYKfyu8w&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=3)
 
-### 8-bit Bus
+4. **Input Unit and Memory Address Register (MAR)**
+   - MAR selects memory locations for instruction fetching.
+   - [Video: MAR Design](https://www.youtube.com/watch?v=DHD99TvLEVA&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=2)
 
-https://youtu.be/dWdzywzoWck?si=vOc8VBNcO41z5CF-
+5. **8-bit Arithmetic Logic Unit (ALU)**
+   - Performs arithmetic and logical operations.
+   - [Video: ALU Design](https://www.youtube.com/watch?v=jLDd3z0XFQw&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=11)
 
+6. **Accumulator (Register A) and Register B**
+   - Temporarily stores data for computations.
+   - [Video: Accumulator and Register B Design](https://www.youtube.com/watch?v=WmYglyEPKCw&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=8)
 
-### 16*8 bit RAM
+7. **Clock**
+   - Synchronizes operations within the system.
+   - [Video: Clock Design](https://www.youtube.com/watch?v=XizNo5aafIs&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=4)
 
-https://www.youtube.com/watch?v=dWdzywzoWck&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=6
+8. **3-Bit BCD Display**
+   - Converts binary output to BCD for readability.
+   - [Video: BCD Display Design](https://www.youtube.com/watch?v=V7LNtxWiSOc&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=12)
 
+9. **Control Sequencer**
+   - Generates control signals for executing instructions.
+   - [Video: Control Sequencer Design](https://www.youtube.com/watch?v=iVXcBfx2rIM&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=9)
 
-### A Program counter (4bit) (PC)
+10. **Instruction Register**
+    - Holds the current instruction for decoding and execution.
+    - [Video: Instruction Register Design](https://www.youtube.com/watch?v=ychcl_FOTmM&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=7)
 
-https://www.youtube.com/watch?v=SFzbYKfyu8w&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=3
+11. **Address Selector**
+    - Determines the next instruction address.
+    - [Video: Address Selector Design](https://www.youtube.com/watch?v=X5iI_aPhi5c&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=5)
 
+---
 
-### Input Unit and Memory Address Register (MAR)
+## 🔍 **Project Testing**
+The system's functionality was tested using Proteus simulations.
+- [Video: Project Testing](https://www.youtube.com/watch?v=kuD-TO59JPA&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=13)
 
-https://www.youtube.com/watch?v=DHD99TvLEVA&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=2
+![Custom SAP-1](https://github.com/touhidulislam1999/Simple-As-Possible-SAP-8-bit-computer-using-Proteus/assets/97190512/f249a9df-d2e8-412b-b63b-1a6185b33dc6)
 
+---
 
-### 8-bit Arithmetic Logic Unit (ALU)
+## ✨ **Special Features**
+1. **T-State Reduction**:
+   - Reduced the T-states from 6 to 4 for improved performance.
+2. **Binary to BCD Display**:
+   - Added an 8-bit binary to 3-bit BCD converter for better readability.
+3. **Negative Number Handling**:
+   - Displays a minus (`-`) sign for subtraction when the result is negative.
 
-https://www.youtube.com/watch?v=jLDd3z0XFQw&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=11
+---
 
-
-### Two 8-bit register Accumulator (register A)
-
-https://www.youtube.com/watch?v=cJYIx9asTT0&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=10
-
-
-### Design of B register and output register 
-
-https://www.youtube.com/watch?v=WmYglyEPKCw&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=8
-
-
-## **Sub-Features (Mandatory):**
-
-
-
-### Clock
-
-https://www.youtube.com/watch?v=XizNo5aafIs&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=4
-
-
-### 3-Bit BCD Display
-
-https://www.youtube.com/watch?v=V7LNtxWiSOc&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=12
-
-
-### Control Sequencer
-
-https://www.youtube.com/watch?v=iVXcBfx2rIM&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=9
-
-
-### Instruction Register
-
-https://www.youtube.com/watch?v=ychcl_FOTmM&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=7
-
-
-### Address Selector
-
-https://www.youtube.com/watch?v=X5iI_aPhi5c&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=5
-
-
-
-### PROJECT TESTING
-
-https://www.youtube.com/watch?v=kuD-TO59JPA&list=PLk4sSigu0N0W4v755N_O6Jk1WWrfWIGgm&index=13
-
-
-And below is our version of SAP-1 done as a university project; under Islamic University of Technology (IUT). 
-
-
-![image](https://github.com/touhidulislam1999/Simple-As-Possible-SAP-8-bit-computer-using-Proteus/assets/97190512/f249a9df-d2e8-412b-b63b-1a6185b33dc6)
-
-
-Fig: Custom SAP 
-
-### Introduction:
-
-There is only one ic present in the sap that we made which is a 555 timer. All other systems were created by basic AND OR NOR NAND NOT gates.
-
-One special feature of our project is we reduced the t states from 6 to 4.
-
-Another special feature we built a 8-bit binary to 3 bit BCD display.
-
-The most interesting fact is that when if we subtract bigger number from smaller number, we can also show minus ‘-’ sign in the display.
-
-
-### CONTACT ME FOR MORE DETAILS 
-### TOUHIDUL ISLAM
-### https://www.facebook.com/touhidul.14.11.99/
-
+## 🛠️ **How to Use**
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/touhidulislam1999/Simple-As-Possible-SAP-8-bit-computer-using-Proteus.git
