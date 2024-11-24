@@ -1,6 +1,6 @@
 # 💻 Simple-As-Possible (SAP-1) 8-bit Computer Using Proteus
 
-This project is an implementation of the **SAP-1 (Simple As Possible)** 8-bit computer architecture using Proteus. It showcases the fundamental workings of a computer, including a processing unit, control unit, and memory unit, built using discrete components. This project serves as a foundational step for understanding more complex computer architectures.
+This project is an implementation of the **SAP-1 (Simple As Possible)** 8-bit computer architecture using Proteus. It showcases the fundamental workings of a computer, including a processing unit, control unit, and memory unit, built using discrete components. This project serves as a foundational step for understanding more intricate computer architectures.
 
 ---
 
