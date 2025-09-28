@@ -2,6 +2,8 @@
 
 This project is an implementation of the **SAP-1 (Simple As Possible)** 8-bit computer architecture using Proteus. It showcases the fundamental workings of a computer, including a processing unit, control unit, and memory unit, built using discrete components. This project serves as a foundational step for understanding more intricate computer architectures.
 
+**[Project Manual](https://github.com/touhidulislam1999/Simple-As-Possible-SAP-8-bit-computer-using-Proteus/blob/main/SAP%20Project%20Manual.pdf)**
+
 ---
 
 ## 📜 **Project Overview**
