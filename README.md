@@ -86,6 +86,11 @@ The system's functionality was tested using Proteus simulations.
 
 ---
 
+## **Contributor**
+**[Faiaz Zahin](https://github.com/fzn011)**
+**[Abrar Fahim Saraz](https://github.com/abrarfahimsaraz)**
+
+
 ## 🛠️ **How to Use**
 1. **Clone the Repository**:
    ```bash
